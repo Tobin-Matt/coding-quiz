@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: lightblue;
+}
+
+main {
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.intro-container {
+    max-width: 50%;
+    padding: 4rem;
+    margin: 4rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+    text-align: center;
+}
