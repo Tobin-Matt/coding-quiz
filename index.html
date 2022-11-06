@@ -18,7 +18,7 @@
     
     <div class="intro-container">
         <div class="intro-title">
-            <h3>Timed Coding Quiz</h3>
+            <h1>Timed Coding Quiz</h1>
         </div>
         <div class="intro-content">
             <p>This is where all the instructions to the quiz will be placed.</p>
@@ -28,18 +28,33 @@
         </div>
     </div>
 
-    <div class="question-container hidden">
-        <h3 class="question">First Question</h3>
-        <div class="options">
-            <ul class="option-btns">
-                <button>Answer 1</button>
-                <button>Answer 2</button>
-                <button>Answer 3</button>
-                <button>Answer 4</button>
-            </ul>
+    <div class= "question-container hidden">
+        <div>
+            <h1 id="question"></h1>
         </div>
+        
+        
+        <div id="option-btns">
+            <button type="button" class="buttons" id="btn0"> 
+                <span id="option0"></span>
+            </button>
+            <button type="button" class="buttons" id="btn1">
+                <span id="option1"></span>
+            </button>
+            <button type="button" class="buttons" id="btn2">
+                <span id="option2"></span>
+            </button>
+            <button type="button" class="buttons" id="btn3">
+                <span id="option3"></span>
+            </button>
+        </div>
+
+        <button type="button" id="previous-btn"> Previous </button>
+        <button type="button" id="next-btn"> Next </button>
+        
         <div class="alert-message">
-            <p class="correct-wrong"></p>
+            <hr>
+            <p class="correct-wrong">Correct!</p>
         </div>
     </div>
     

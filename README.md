@@ -6,8 +6,8 @@
 * time starts to count down from set number of seconds
     * add eventListener - start button starts the countdown of the clock
     * time amount to start from 60seconds, will decrease by one second.
-    * if user gets incorrect answer, time will decrease by 5 seconds.
     * need a question to be prompted and options of answers for user to select 
+    * if user gets incorrect answer, time will decrease by 5 seconds.
 * a question is presented to the page when start button is clicked
     * add eventListener - add click event to start button
     * varName.addEventListener("click", function () {})
