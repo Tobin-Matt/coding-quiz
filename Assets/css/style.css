@@ -36,9 +36,18 @@ header {
     font-size: 1.1em;
 }
 
+.intro-content {
+    padding: 2rem;
+}
+
 #option-btns {
     text-align: left;
     margin: 2rem 25rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#answer-options {
     display: flex;
     flex-direction: column;
 }
