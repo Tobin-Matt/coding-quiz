@@ -27,3 +27,5 @@ Due to some time restrictions the entire Acceptance Criteria was not programmed 
 ![](./Assets/_C__Users_mattt_bootcamp_git-hub-repos_coding-quiz_times%20up.png)
 
 ## Project URLs
+* Deployed site URL: https://tobin-matt.github.io/coding-quiz/
+* GitHub Repo URL: https://github.com/Tobin-Matt/coding-quiz
