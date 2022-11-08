@@ -1,5 +1,5 @@
 
-//need to have the timeEl access the start button - start button to be added to the HTML file for the intro page
+//need to have the timeEl access the start button
 var startBtn          = document.querySelector('#start-btn');
 var introContainer    = document.querySelector('.intro-container');
 var questionContainer = document.querySelector('.question-container');
@@ -73,7 +73,7 @@ function displayQuestion(item) {
     for (var i = 0; i < item.options.length; i++) {
         var answerListItem = document.createElement("button");
         answerListItem.classList = "buttons";
-        answerListItem.type = "radio";
+        answerListItem.type = "button";
 
         console.log("Answer list item:");
         console.log(answerListItem);
@@ -90,12 +90,17 @@ function displayQuestion(item) {
 };
 
 //compare users selection of option to correct answer
+//check to see if answer is correct
+//reduce time if incorrect (8 seconds)
 // function compareAnswer () {
-//     nextBtn.addEventListener("click", function(event) {
-//         var element = event.target;
-//         console.log(element);
-//     })
+//     //compare userChoice to answer
+//     if (userChoice === )
 // }
+
+//click events added to each answer button (4 total)
+//inside the click events would be the compareAnswer and displayQuestion functions
+
+
 
 var questionsIndex = 0;
 previousBtn.addEventListener("click", function() {
